@@ -8,12 +8,12 @@ Robotic arm that draws alphabets as per the input. (Supports A, T, H, L, E, F)
 ## **How to build**
 *Creating a workspace to build the package*
 ```
-mkdir -p ~/AlphabetWritingManipulator_ws/src && cd ~/AlphabetWritingManipulator_ws/src
+mkdir -p ~/alphabet_manipulator_ws/src && cd ~/alphabet_manipulator_ws/src
 ```
 *Cloning the package*
 ```
-git clone https://github.com/mugunthank7/AlphabetWritingManipulator
-cd ~/AlphabetWritingManipulator_ws
+git clone https://github.com/kalashjain23/alphabet_manipulator
+cd ~/alphabet_manipulator_ws
 ```
 *Installing the dependencies and building the workspace*
 ```
@@ -23,15 +23,16 @@ colcon build
 ## **How to use**
 ```
 # source the workspace
-source ~/AlphabetWritingManipulator_ws/install/setup.bash
+source ~/alphabet_manipulator_ws/install/setup.bash
 
 # All set to go! Run the launch file
-ros2 launch AlphabetWritingManipulator main.launch.py
+ros2 launch alphabet_manipulator main.launch.py
 
 # Run the controller script with the path to the image
-ros2 run AlphabetWritingManipulator controller.py {path to the image}
+ros2 run alphabet_manipulator controller.py {path to the image}
 ```
 *The robot should start drawing that alphabet now*
+
 
 ## **Pre-Requiste Python Libraries**
 
