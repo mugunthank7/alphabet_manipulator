@@ -12,7 +12,7 @@ mkdir -p ~/alphabet_manipulator_ws/src && cd ~/alphabet_manipulator_ws/src
 ```
 *Cloning the package*
 ```
-git clone https://github.com/kalashjain23/alphabet_manipulator
+git clone https://github.com/mugunthank7/alphabet_manipulator
 cd ~/alphabet_manipulator_ws
 ```
 *Installing the dependencies and building the workspace*
